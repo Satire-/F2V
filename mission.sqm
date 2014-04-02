@@ -122,7 +122,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-2470.5164,411.20691,-687.14105};
+					position[]={311.89099,398.12619,1451.1304};
 					azimut=90;
 					id=0;
 					side="WEST";
@@ -143,7 +143,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-2489.4617,406.57822,-687.1474};
+					position[]={292.94568,402.06122,1451.124};
 					azimut=270;
 					id=1;
 					side="EAST";
@@ -164,7 +164,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-2494.5496,398.70959,-717.2121};
+					position[]={287.85779,404.52048,1421.0593};
 					id=2;
 					side="LOGIC";
 					vehicle="Logic";
@@ -182,7 +182,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-2462.3582,406.20389,-717.92841};
+					position[]={320.04919,403.17105,1420.343};
 					id=3;
 					side="LOGIC";
 					vehicle="FunctionsManager";
@@ -13104,7 +13104,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-2460.4214,400.18671,-740.13593};
+					position[]={321.98596,409.42529,1398.1355};
 					azimut=0.32468101;
 					id=927;
 					side="LOGIC";
@@ -13123,7 +13123,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-2496.9451,391.0715,-737.26263};
+					position[]={285.46228,407.03488,1401.0088};
 					azimut=0.32468101;
 					id=928;
 					side="LOGIC";
@@ -15711,13 +15711,14 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-2431.7693,405.38385,-740.26971};
+					position[]={2244.0095,317.8732,3438.5713};
 					id=1116;
 					side="LOGIC";
 					vehicle="RHS_CargoSystem_Enable";
 					leader=1;
 					lock="UNLOCKED";
 					skill=0.60000002;
+					init="this synchronizeObjectsAdd playableUnits";
 				};
 			};
 		};
@@ -16182,7 +16183,7 @@ class Mission
 			azimut=0.89087403;
 			id=551;
 			side="EMPTY";
-			vehicle="rhs_t80bvmod_vmf";
+			vehicle="rhs_t80a";
 			skill=0.5;
 			text="RU_TNK1";
 		};
@@ -16255,7 +16256,7 @@ class Mission
 			azimut=1.4615099;
 			id=614;
 			side="EMPTY";
-			vehicle="rhs_t80bv_cdf";
+			vehicle="T72_CDF";
 			skill=0.5;
 			text="CDF_TNK1";
 		};

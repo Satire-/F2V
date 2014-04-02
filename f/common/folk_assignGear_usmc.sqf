@@ -80,7 +80,7 @@ _HMGmount = "Tripod_Bag";																													// Assistant Heavy MG (not
 
 _RAT = "M136"; _RATmag = "M136";																											// Rifleman AT
 
-_MAT = "SMAW"; _MATmag1 = "SMAW_HEAA"; _MATmag2 = "MAAWS_HEDP";																			// Medium AT
+_MAT = "SMAW"; _MATmag1 = "SMAW_HEAA"; _MATmag2 = "SMAW_HEDP";																			// Medium AT
 
 _HAT = "Javelin"; _HATmag1 = "Javelin"; _HATmag2 = "Javelin";																				// Heavy AT Gunner
 
