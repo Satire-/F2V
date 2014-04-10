@@ -38,35 +38,35 @@ GrpUS_AH1 setGroupId ["US Army AH1 -","GroupColor0"];
 // GROUP IDs: US ARMY
 // Automatically assigns intelligible names to groups
 
-GrpUS_CO setGroupId ["US Army CO -","GroupColor0"];
-GrpUS_DC setGroupId ["US Army DC -","GroupColor0"];
-GrpUS_ASL setGroupId ["US Army ASL -","GroupColor0"];
+GrpUSM_CO setGroupId ["US Army CO -","GroupColor0"];
+GrpUSM_DC setGroupId ["US Army DC -","GroupColor0"];
+GrpUSM_ASL setGroupId ["US Army ASL -","GroupColor0"];
 GrpUSM_A1 setGroupId ["US Army A1 -","GroupColor0"];
-GrpUS_A2 setGroupId ["US Army A2 -","GroupColor0"];
-GrpUS_A3 setGroupId ["US Army A3 -","GroupColor0"];
-GrpUS_BSL setGroupId ["US Army BSL -","GroupColor0"];
-GrpUS_B1 setGroupId ["US Army B1 -","GroupColor0"];
-GrpUS_B2 setGroupId ["US Army B2 -","GroupColor0"];
-GrpUS_B3 setGroupId ["US Army B3 -","GroupColor0"];
-GrpUS_CSL setGroupId ["US Army CSL -","GroupColor0"];
-GrpUS_C1 setGroupId ["US Army C1 -","GroupColor0"];
-GrpUS_C2 setGroupId ["US Army C2 -","GroupColor0"];
-GrpUS_C3 setGroupId ["US Army C3 -","GroupColor0"];
-GrpUS_MMG1 setGroupId ["US Army MMG1 -","GroupColor0"];
-GrpUS_MAT1 setGroupId ["US Army MAT1 -","GroupColor0"];
-GrpUS_ST1 setGroupId ["US Army ST1 -","GroupColor0"];
-GrpUS_HMG1 setGroupId ["US Army HMG1 -","GroupColor0"];
-GrpUS_MTR1 setGroupId ["US Army MTR1 -","GroupColor0"];
-GrpUS_HAT1 setGroupId ["US Army HAT1 -","GroupColor0"];
-GrpUS_SAM1 setGroupId ["US Army SAM1 -","GroupColor0"];
-GrpUS_ENG1 setGroupId ["US Army ENG1 -","GroupColor0"];
-GrpUS_IFV1 setGroupId ["US Army IFV1 -","GroupColor0"];
-GrpUS_IFV2 setGroupId ["US Army IFV2 -","GroupColor0"];
-GrpUS_IFV3 setGroupId ["US Army IFV3 -","GroupColor0"];
-GrpUS_TNK1 setGroupId ["US Army TNK1 -","GroupColor0"];
-GrpUS_TH1 setGroupId ["US Army TH1 -","GroupColor0"];
-GrpUS_TH2 setGroupId ["US Army TH2 -","GroupColor0"];
-GrpUS_AH1 setGroupId ["US Army AH1 -","GroupColor0"];
+GrpUSM_A2 setGroupId ["US Army A2 -","GroupColor0"];
+GrpUSM_A3 setGroupId ["US Army A3 -","GroupColor0"];
+GrpUSM_BSL setGroupId ["US Army BSL -","GroupColor0"];
+GrpUSM_B1 setGroupId ["US Army B1 -","GroupColor0"];
+GrpUSM_B2 setGroupId ["US Army B2 -","GroupColor0"];
+GrpUSM_B3 setGroupId ["US Army B3 -","GroupColor0"];
+GrpUSM_CSL setGroupId ["US Army CSL -","GroupColor0"];
+GrpUSM_C1 setGroupId ["US Army C1 -","GroupColor0"];
+GrpUSM_C2 setGroupId ["US Army C2 -","GroupColor0"];
+GrpUSM_C3 setGroupId ["US Army C3 -","GroupColor0"];
+GrpUSM_MMG1 setGroupId ["US Army MMG1 -","GroupColor0"];
+GrpUSM_MAT1 setGroupId ["US Army MAT1 -","GroupColor0"];
+GrpUSM_ST1 setGroupId ["US Army ST1 -","GroupColor0"];
+GrpUSM_HMG1 setGroupId ["US Army HMG1 -","GroupColor0"];
+GrpUSM_MTR1 setGroupId ["US Army MTR1 -","GroupColor0"];
+GrpUSM_HAT1 setGroupId ["US Army HAT1 -","GroupColor0"];
+GrpUSM_SAM1 setGroupId ["US Army SAM1 -","GroupColor0"];
+GrpUSM_ENG1 setGroupId ["US Army ENG1 -","GroupColor0"];
+GrpUSM_IFV1 setGroupId ["US Army IFV1 -","GroupColor0"];
+GrpUSM_IFV2 setGroupId ["US Army IFV2 -","GroupColor0"];
+GrpUSM_IFV3 setGroupId ["US Army IFV3 -","GroupColor0"];
+GrpUSM_TNK1 setGroupId ["US Army TNK1 -","GroupColor0"];
+GrpUSM_TH1 setGroupId ["US Army TH1 -","GroupColor0"];
+GrpUSM_TH2 setGroupId ["US Army TH2 -","GroupColor0"];
+GrpUSM_AH1 setGroupId ["US Army AH1 -","GroupColor0"];
 
 
 // ====================================================================================
@@ -246,35 +246,35 @@ GrpRU_AH1 setGroupId ["Russian Army AH1 -","GroupColor0"];
 // GROUP IDs: Russian Army
 // Automatically assigns intelligible names to groups
 
-GrpRU_CO setGroupId ["Russian Army CO -","GroupColor0"];
-GrpRU_DC setGroupId ["Russian Army DC -","GroupColor0"];
-GrpRU_ASL setGroupId ["Russian Army ASL -","GroupColor0"];
+GrpNI_CO setGroupId ["Russian Army CO -","GroupColor0"];
+GrpNI_DC setGroupId ["Russian Army DC -","GroupColor0"];
+GrpNI_ASL setGroupId ["Russian Army ASL -","GroupColor0"];
 GrpNI_A1 setGroupId ["Russian Army A1 -","GroupColor0"];
-GrpRU_A2 setGroupId ["Russian Army A2 -","GroupColor0"];
-GrpRU_A3 setGroupId ["Russian Army A3 -","GroupColor0"];
-GrpRU_BSL setGroupId ["Russian Army BSL -","GroupColor0"];
-GrpRU_B1 setGroupId ["Russian Army B1 -","GroupColor0"];
-GrpRU_B2 setGroupId ["Russian Army B2 -","GroupColor0"];
-GrpRU_B3 setGroupId ["Russian Army B3 -","GroupColor0"];
-GrpRU_CSL setGroupId ["Russian Army CSL -","GroupColor0"];
-GrpRU_C1 setGroupId ["Russian Army C1 -","GroupColor0"];
-GrpRU_C2 setGroupId ["Russian Army C2 -","GroupColor0"];
-GrpRU_C3 setGroupId ["Russian Army C3 -","GroupColor0"];
-GrpRU_MMG1 setGroupId ["Russian Army MMG1 -","GroupColor0"];
-GrpRU_MAT1 setGroupId ["Russian Army MAT1 -","GroupColor0"];
-GrpRU_ST1 setGroupId ["Russian Army ST1 -","GroupColor0"];
-GrpRU_HMG1 setGroupId ["Russian Army HMG1 -","GroupColor0"];
-GrpRU_MTR1 setGroupId ["Russian Army MTR1 -","GroupColor0"];
-GrpRU_HAT1 setGroupId ["Russian Army HAT1 -","GroupColor0"];
-GrpRU_SAM1 setGroupId ["Russian Army SAM1 -","GroupColor0"];
-GrpRU_ENG1 setGroupId ["Russian Army ENG1 -","GroupColor0"];
-GrpRU_IFV1 setGroupId ["Russian Army IFV1 -","GroupColor0"];
-GrpRU_IFV2 setGroupId ["Russian Army IFV2 -","GroupColor0"];
-GrpRU_IFV3 setGroupId ["Russian Army IFV3 -","GroupColor0"];
-GrpRU_TNK1 setGroupId ["Russian Army TNK1 -","GroupColor0"];
-GrpRU_TH1 setGroupId ["Russian Army TH1 -","GroupColor0"];
-GrpRU_TH2 setGroupId ["Russian Army TH2 -","GroupColor0"];
-GrpRU_AH1 setGroupId ["Russian Army AH1 -","GroupColor0"];
+GrpNI_A2 setGroupId ["Russian Army A2 -","GroupColor0"];
+GrpNI_A3 setGroupId ["Russian Army A3 -","GroupColor0"];
+GrpNI_BSL setGroupId ["Russian Army BSL -","GroupColor0"];
+GrpNI_B1 setGroupId ["Russian Army B1 -","GroupColor0"];
+GrpNI_B2 setGroupId ["Russian Army B2 -","GroupColor0"];
+GrpNI_B3 setGroupId ["Russian Army B3 -","GroupColor0"];
+GrpNI_CSL setGroupId ["Russian Army CSL -","GroupColor0"];
+GrpNI_C1 setGroupId ["Russian Army C1 -","GroupColor0"];
+GrpNI_C2 setGroupId ["Russian Army C2 -","GroupColor0"];
+GrpNI_C3 setGroupId ["Russian Army C3 -","GroupColor0"];
+GrpNI_MMG1 setGroupId ["Russian Army MMG1 -","GroupColor0"];
+GrpNI_MAT1 setGroupId ["Russian Army MAT1 -","GroupColor0"];
+GrpNI_ST1 setGroupId ["Russian Army ST1 -","GroupColor0"];
+GrpNI_HMG1 setGroupId ["Russian Army HMG1 -","GroupColor0"];
+GrpNI_MTR1 setGroupId ["Russian Army MTR1 -","GroupColor0"];
+GrpNI_HAT1 setGroupId ["Russian Army HAT1 -","GroupColor0"];
+GrpNI_SAM1 setGroupId ["Russian Army SAM1 -","GroupColor0"];
+GrpNI_ENG1 setGroupId ["Russian Army ENG1 -","GroupColor0"];
+GrpNI_IFV1 setGroupId ["Russian Army IFV1 -","GroupColor0"];
+GrpNI_IFV2 setGroupId ["Russian Army IFV2 -","GroupColor0"];
+GrpNI_IFV3 setGroupId ["Russian Army IFV3 -","GroupColor0"];
+GrpNI_TNK1 setGroupId ["Russian Army TNK1 -","GroupColor0"];
+GrpNI_TH1 setGroupId ["Russian Army TH1 -","GroupColor0"];
+GrpNI_TH2 setGroupId ["Russian Army TH2 -","GroupColor0"];
+GrpNI_AH1 setGroupId ["Russian Army AH1 -","GroupColor0"];
 
 //===================================================================================== 
 

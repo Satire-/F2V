@@ -107,14 +107,15 @@ _unit = _this select 1;							// expecting name of unit; originally passed by us
 
 removeBackpack _unit;
 removeallweapons _unit;
+removeAllItems _unit;
 _unit addweapon "NVGoggles"; 					// add universal NVG for this faction
 
 //removeAllItems _unit;						// remove default items: map, compass, watch, radio (and GPS for team/squad leaders)
 ////_unit addweapon "ItemGPS";					// add universal GPS for this faction (nb: misc items not cleared
-//_unit addweapon "ItemMap";				// etc
-//_unit addweapon "ItemCompass";
-//_unit addweapon "ItemRadio";
-//_unit addweapon "ItemWatch";
+_unit addweapon "ItemMap";				// etc
+_unit addweapon "ItemCompass";
+_unit addweapon "ItemRadio";
+_unit addweapon "ItemWatch";
 
 // ====================================================================================
 

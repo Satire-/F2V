@@ -62,7 +62,6 @@ class Mission
 		"ca_missions_alternativeinjurysimulation",
 		"us_military_units",
 		"sg_ni",
-		"rhs_cargosystem",
 		"CATracked_E",
 		"CATracked",
 		"caair_e_mi8",
@@ -113,7 +112,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=348;
+		items=347;
 		class Item0
 		{
 			side="WEST";
@@ -13197,6 +13196,7 @@ class Mission
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.5;
+					text="UnitUSM_CO";
 					init="GrpUSM_CO = group this; nul = [""co"",this] call f_fnc_assignGear;";
 					description="US Army Commander";
 				};
@@ -13233,6 +13233,7 @@ class Mission
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.5;
+					text="UnitUSM_DC";
 					init="GrpUSM_DC = group this; nul = [""dc"",this] call f_fnc_assignGear;";
 					description="US Army Deputy Commander";
 				};
@@ -13269,6 +13270,7 @@ class Mission
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.5;
+					text="UnitUSM_ASL";
 					init="GrpUSM_ASL = group this; nul = [""dc"",this] call f_fnc_assignGear;";
 					description="US Army Alpha Squad Leader";
 				};
@@ -13304,6 +13306,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitUSM_A1_FTL";
 					init="GrpUSM_A1 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
 					description="US Army Alpha 1 Fireteam Leader";
 				};
@@ -13316,6 +13319,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitUSM_A1_AR";
 					init="GrpUSM_A1 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
 					description="US Army Alpha 1 Automatic Rifleman";
 				};
@@ -13327,6 +13331,7 @@ class Mission
 					vehicle="usm_soldier_80s_w_h_rm1";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitUSM_A1_AAR";
 					init="GrpUSM_A1 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
 					description="US Army Alpha 1 Assistant Automatic Rifleman";
 				};
@@ -13338,6 +13343,7 @@ class Mission
 					vehicle="usm_soldier_80s_w_h_at4";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitUSM_A1_AT";
 					init="GrpUSM_A1 = group this; nul = [""rat"",this] call f_fnc_assignGear;";
 					description="US Army Alpha 1 Rifleman (AT)";
 				};
@@ -15700,25 +15706,6 @@ class Mission
 					skill=0.60000002;
 					init="GrpUSMC_USM_IFV2 = group this; nul = [""p"",this] call f_fnc_assignGear; this moveInGunner USMC_USM_IFV2;";
 					description="USMC Attack Helo 1 Gunner";
-				};
-			};
-		};
-		class Item347
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={2244.0095,317.8732,3438.5713};
-					id=1116;
-					side="LOGIC";
-					vehicle="RHS_CargoSystem_Enable";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.60000002;
-					init="this synchronizeObjectsAdd playableUnits";
 				};
 			};
 		};
