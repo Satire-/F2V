@@ -444,7 +444,7 @@ class Mission
 				class Item0
 				{
 					position[]={2234.2664,315.50427,2828.9153};
-					azimut=1.4615065;
+					azimut=1.4615099;
 					id=17;
 					side="WEST";
 					vehicle="US_Soldier_TL_EP1";
@@ -3222,7 +3222,7 @@ class Mission
 				class Item0
 				{
 					position[]={2233.1863,318.30838,2780.8401};
-					azimut=1.4615065;
+					azimut=1.4615099;
 					id=198;
 					side="WEST";
 					vehicle="US_Soldier_TL_EP1";
@@ -13365,6 +13365,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitUSM_A2_FTL";
 					init="GrpUSM_A2 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
 					description="US Army Alpha 2 Fireteam Leader";
 				};
@@ -13377,6 +13378,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitUSM_A2_AR";
 					init="GrpUSM_A2 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
 					description="US Army Alpha 2 Automatic Rifleman";
 				};
@@ -13388,6 +13390,7 @@ class Mission
 					vehicle="usm_soldier_80s_w_h_rm1";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitUSM_A2_AAR";
 					init="GrpUSM_A2 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
 					description="US Army Alpha 2 Assistant Automatic Rifleman";
 				};
@@ -13399,6 +13402,7 @@ class Mission
 					vehicle="usm_soldier_80s_w_h_at4";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitUSM_A2_AT";
 					init="GrpUSM_A2 = group this; nul = [""rat"",this] call f_fnc_assignGear;";
 					description="US Army Alpha 2 Rifleman (AT)";
 				};
@@ -13420,6 +13424,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitUSM_A3_FTL";
 					init="GrpUSM_A3 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
 					description="US Army Alpha 3 Fireteam Leader";
 				};
@@ -13432,6 +13437,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitUSM_A3_AR";
 					init="GrpUSM_A3 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
 					description="US Army Alpha 3 Automatic Rifleman";
 				};
@@ -13443,6 +13449,7 @@ class Mission
 					vehicle="usm_soldier_80s_w_h_rm1";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitUSM_A3_AAR";
 					init="GrpUSM_A3 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
 					description="US Army Alpha 3 Assistant Automatic Rifleman";
 				};
@@ -13454,6 +13461,7 @@ class Mission
 					vehicle="usm_soldier_80s_w_h_at4";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitUSM_A3_AT";
 					init="GrpUSM_A3 = group this; nul = [""rat"",this] call f_fnc_assignGear;";
 					description="US Army Alpha 3 Rifleman (AT)";
 				};
@@ -13476,6 +13484,7 @@ class Mission
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.5;
+					text="UnitUSM_BSL";
 					init="GrpUSM_BSL = group this; nul = [""dc"",this] call f_fnc_assignGear;";
 					description="US Army Bravo Squad Leader";
 				};
@@ -13511,6 +13520,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitUSM_B1_FTL";
 					init="GrpUSM_B1 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
 					description="US Army Bravo 1 Fireteam Leader";
 				};
@@ -13523,7 +13533,8 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					init="GrpUSM_AB = group this; nul = [""ar"",this] call f_fnc_assignGear;";
+					text="UnitUSM_B1_AR";
+					init="GrpUSM_B1 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
 					description="US Army Bravo 1 Automatic Rifleman";
 				};
 				class Item2
@@ -13534,6 +13545,7 @@ class Mission
 					vehicle="usm_soldier_80s_w_h_rm1";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitUSM_B1_AAR";
 					init="GrpUSM_B1 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
 					description="US Army Bravo 1 Assistant Automatic Rifleman";
 				};
@@ -13545,6 +13557,7 @@ class Mission
 					vehicle="usm_soldier_80s_w_h_at4";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitUSM_B1_AT";
 					init="GrpUSM_B1 = group this; nul = [""rat"",this] call f_fnc_assignGear;";
 					description="US Army Bravo 1 Rifleman (AT)";
 				};
@@ -13566,6 +13579,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitUSM_B2_FTL";
 					init="GrpUSM_B2 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
 					description="US Army Bravo 2 Fireteam Leader";
 				};
@@ -13578,6 +13592,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitUSM_B2_AR";
 					init="GrpUSM_B2 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
 					description="US Army Bravo 2 Automatic Rifleman";
 				};
@@ -13588,7 +13603,8 @@ class Mission
 					side="WEST";
 					vehicle="usm_soldier_80s_w_h_rm1";
 					player="PLAY CDG";
-					skill=0.60000002;
+					skill=0.52033132;
+					text="UnitUSM_B2_AAR";
 					init="GrpUSM_B2 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
 					description="US Army Bravo 2 Assistant Automatic Rifleman";
 				};
@@ -13600,6 +13616,7 @@ class Mission
 					vehicle="usm_soldier_80s_w_h_at4";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitUSM_B2_AT";
 					init="GrpUSM_B2 = group this; nul = [""rat"",this] call f_fnc_assignGear;";
 					description="US Army Bravo 2 Rifleman (AT)";
 				};
@@ -13621,6 +13638,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitUSM_B3_FTL";
 					init="GrpUSM_B3 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
 					description="US Army Bravo 3 Fireteam Leader";
 				};
@@ -13633,6 +13651,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitUSM_B3_AR";
 					init="GrpUSM_B3 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
 					description="US Army Bravo 3 Automatic Rifleman";
 				};
@@ -13644,6 +13663,7 @@ class Mission
 					vehicle="usm_soldier_80s_w_h_rm1";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitUSM_B3_AAR";
 					init="GrpUSM_B3 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
 					description="US Army Bravo 3 Assistant Automatic Rifleman";
 				};
@@ -13655,6 +13675,7 @@ class Mission
 					vehicle="usm_soldier_80s_w_h_at4";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitUSM_B3_AT";
 					init="GrpUSM_B3 = group this; nul = [""rat"",this] call f_fnc_assignGear;";
 					description="US Army Bravo 3 Rifleman (AT)";
 				};
@@ -13676,6 +13697,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitUSM_MMG1_G";
 					init="GrpUSM_MMG1 = group this; nul = [""mmgg"",this] call f_fnc_assignGear;";
 					description="US Army Medium MG Team 1 Gunner";
 				};
@@ -13687,6 +13709,7 @@ class Mission
 					vehicle="usm_soldier_80s_w_h_mgab";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitUSM_MMG1_AG";
 					init="GrpUSM_MMG1 = group this; nul = [""mmgag"",this] call f_fnc_assignGear;";
 					description="US Army Medium MG Team 1 Assistant Gunner";
 				};
@@ -13708,6 +13731,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitUSM_MAT1_G";
 					init="GrpUSM_MAT1 = group this; nul = [""matg"",this] call f_fnc_assignGear;";
 					description="US Army Medium AT Team 1 Gunner";
 				};
@@ -13719,6 +13743,7 @@ class Mission
 					vehicle="usm_soldier_80s_w_h_ajav";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitUSM_MAT1_AG";
 					init="GrpUSM_MAT1 = group this; nul = [""matag"",this] call f_fnc_assignGear;";
 					description="US Army Medium AT Team 1 Assistant Gunner";
 				};
@@ -13740,6 +13765,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitUSM_SAM1_G";
 					init="GrpUSM_SAM1 = group this; nul = [""samg"",this] call f_fnc_assignGear;";
 					description="US Army SAM Team 1 Gunner";
 				};
@@ -13751,6 +13777,7 @@ class Mission
 					vehicle="usm_soldier_80s_w_h_rm1";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitUSM_SAM1_AG";
 					init="GrpUSM_SAM1 = group this; nul = [""samag"",this] call f_fnc_assignGear;";
 					description="US Army SAM Team 1 Assistant Gunner";
 				};
@@ -13772,6 +13799,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
+					text="UnitUSM_ENG1_FTL";
 					init="GrpUSM_ENG1 = group this; nul = [""eng"",this] call f_fnc_assignGear;";
 					description="US Army Engineer Team 1 Leader";
 				};
@@ -13783,6 +13811,7 @@ class Mission
 					vehicle="usm_soldier_80s_w_h_eng";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitUSM_ENG1_1";
 					init="GrpUSM_ENG1 = group this; nul = [""eng"",this] call f_fnc_assignGear;";
 					description="US Army Engineer Team 1 Engineer";
 				};
@@ -13794,6 +13823,7 @@ class Mission
 					vehicle="usm_soldier_80s_w_h_eng";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitUSM_ENG1_2";
 					init="GrpUSM_ENG1 = group this; nul = [""eng"",this] call f_fnc_assignGear;";
 					description="US Army Engineer Team 1 Engineer";
 				};
@@ -13805,6 +13835,7 @@ class Mission
 					vehicle="usm_soldier_80s_w_h_eng";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitUSM_ENG1_3";
 					init="GrpUSM_ENG1 = group this; nul = [""eng"",this] call f_fnc_assignGear;";
 					description="US Army Engineer Team 1 Engineer";
 				};
@@ -13826,6 +13857,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitUSM_IFV1_G";
 					init="GrpUSM_IFV1 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInGunner USM_IFV1;";
 					description="US Army IFV 1 Gunner (M113A3)";
 				};
@@ -13837,6 +13869,7 @@ class Mission
 					vehicle="usm_soldier_80s_w_h_crew1";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitUSM_IFV1_D";
 					init="GrpUSM_IFV1 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInDriver USM_IFV1;";
 					description="US Army IFV 1 Driver (M113A3)";
 				};
@@ -13858,6 +13891,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitUSM_IFV2_G";
 					init="GrpUSM_IFV2 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInGunner USM_IFV2;";
 					description="US Army IFV 2 Gunner (M113A3)";
 				};
@@ -13869,6 +13903,7 @@ class Mission
 					vehicle="usm_soldier_80s_w_h_crew1";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitUSM_IFV2_D";
 					init="GrpUSM_IFV2 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInDriver USM_IFV2;";
 					description="US Army IFV 2 Driver (M113A3)";
 				};
@@ -13890,6 +13925,8 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
+					text="UnitUSM_IFV3_C";
+					init="GrpUSM_IFV3 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInCommander USM_IFV3;";
 					description="US Army IFV 3 Commander (M2A2 Bradley)";
 				};
 				class Item1
@@ -13901,7 +13938,8 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					init="GrpUSM_IFV2 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInGunner USM_IFV2;";
+					text="UnitUSM_IFV3_G";
+					init="GrpUSM_IFV3 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInGunner USM_IFV3;";
 					description="US Army IFV 3 Gunner (M2A2 Bradley)";
 				};
 				class Item2
@@ -13912,6 +13950,7 @@ class Mission
 					vehicle="usm_soldier_80s_w_h_crew1";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitUSM_IFV3_D";
 					init="GrpUSM_IFV3 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInDriver USM_IFV3;";
 					description="US Army IFV 3 Driver (M2A2 Bradley)";
 				};
@@ -13933,6 +13972,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
+					text="UnitUSM_TNK1_C";
 					init="GrpUSM_TNK1 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInCommander USM_TNK1;";
 					description="US Army Tank 1 Commander (M60A3)";
 				};
@@ -13945,6 +13985,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitUSM_TNK1_G";
 					init="GrpUSM_TNK1 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInGunner USM_TNK1;";
 					description="US Army Tank 1 Gunner (M60A3)";
 				};
@@ -13956,6 +13997,7 @@ class Mission
 					vehicle="usm_soldier_80s_w_h_crew1";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitUSM_TNK1_D";
 					init="GrpUSM_TNK1 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInDriver USM_TNK1;";
 					description="US Army Tank 1 Driver (M60A3)";
 				};
@@ -13977,6 +14019,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
+					text="UnitUSM_TH2_P";
 					init="GrpUSM_TH2 = group this; nul = [""p"",this] call f_fnc_assignGear; this moveInDriver USM_TH2;";
 					description="US Army Transport Helo 2 Pilot";
 				};
@@ -13998,6 +14041,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
+					text="UnitUSM_AH1_P";
 					init="GrpUSM_AH1 = group this; nul = [""p"",this] call f_fnc_assignGear; this moveInDriver USM_AH1;";
 					description="US Army Attack Helo 1 Pilot";
 				};
@@ -14010,6 +14054,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitUSM_AH1_G";
 					init="GrpUSM_AH1 = group this; nul = [""p"",this] call f_fnc_assignGear; this moveInGunner USM_AH1;";
 					description="US Army Attack Helo 1 Gunner";
 				};
@@ -14031,6 +14076,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
+					text="UnitUSM_TH1_P";
 					init="GrpUSM_TH1 = group this; nul = [""p"",this] call f_fnc_assignGear; this moveInDriver USM_TH1;";
 					description="US Army Transport Helo 1 Pilot";
 				};
@@ -14052,6 +14098,7 @@ class Mission
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
+					text="UnitNI_CO";
 					init="GrpNI_CO = group this; nul = [""co"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Commander";
 				};
@@ -14086,6 +14133,7 @@ class Mission
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
+					text="UnitNI_DC";
 					init="GrpNI_DC = group this; nul = [""dc"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Deputry Commander";
 				};
@@ -14120,6 +14168,7 @@ class Mission
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
+					text="UnitNI_ASL";
 					init="GrpNI_ASL = group this; nul = [""dc"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Alpha Squad Leader";
 				};
@@ -14154,6 +14203,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitNI_A1_FTL";
 					init="GrpNI_A1 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Alpha 1 Fireteam Leader";
 				};
@@ -14166,6 +14216,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitNI_A1_AR";
 					init="GrpNI_A1 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Alpha 1 Automatic Rifleman";
 				};
@@ -14177,6 +14228,7 @@ class Mission
 					vehicle="SG_NI_Soldier_D";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitNI_A1_AAR";
 					init="GrpNI_A1 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Alpha 1 Assistant Automatic Rifleman";
 				};
@@ -14188,6 +14240,7 @@ class Mission
 					vehicle="SG_NI_Soldier_AT_D";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitNI_A1_AT";
 					init="GrpNI_A1 = group this; nul = [""rat"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Alpha 1 Rifleman (AT)";
 				};
@@ -14209,6 +14262,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitNI_A2_FTL";
 					init="GrpNI_A2 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Alpha 2 Fireteam Leader";
 				};
@@ -14221,6 +14275,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitNI_A2_AR";
 					init="GrpNI_A2 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Alpha 2 Fireteam Leader";
 				};
@@ -14232,6 +14287,7 @@ class Mission
 					vehicle="SG_NI_Soldier_D";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitNI_A2_AAR";
 					init="GrpNI_A2 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Alpha 2 Automatic Rifleman";
 				};
@@ -14243,6 +14299,7 @@ class Mission
 					vehicle="SG_NI_Soldier_AT_D";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitNI_A2_AT";
 					init="GrpNI_A2 = group this; nul = [""rat"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Alpha 2 Rifleman (AT)";
 				};
@@ -14264,6 +14321,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitNI_A3_FTL";
 					init="GrpNI_A3 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Alpha 3 Fireteam Leader";
 				};
@@ -14276,6 +14334,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitNI_A3_AR";
 					init="GrpNI_A3 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry";
 				};
@@ -14287,6 +14346,7 @@ class Mission
 					vehicle="SG_NI_Soldier_D";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitNI_A3_AAR";
 					init="GrpNI_A3 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Alpha 3 Automatic Rifleman";
 				};
@@ -14298,6 +14358,7 @@ class Mission
 					vehicle="SG_NI_Soldier_AT_D";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitNI_A3_AT";
 					init="GrpNI_A3 = group this; nul = [""rat"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Alpha 3 Rifleman (AT)";
 				};
@@ -14319,6 +14380,7 @@ class Mission
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
+					text="UnitNI_BSL";
 					init="GrpNI_BSL = group this; nul = [""dc"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Bravo Squad Leader";
 				};
@@ -14353,6 +14415,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitNI_B1_FTL";
 					init="GrpNI_B1 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Bravo 1 Fireteam Leader";
 				};
@@ -14365,6 +14428,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitNI_B1_AR";
 					init="GrpNI_B1 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Bravo 1 Automatic Rifleman";
 				};
@@ -14376,6 +14440,7 @@ class Mission
 					vehicle="SG_NI_Soldier_D";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitNI_B1_AAR";
 					init="GrpNI_B1 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Bravo 1 Assistant Automatic Rifleman";
 				};
@@ -14387,6 +14452,7 @@ class Mission
 					vehicle="SG_NI_Soldier_AT_D";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitNI_B1_AT";
 					init="GrpNI_B1 = group this; nul = [""rat"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Bravo 1 Rifleman (AT)";
 				};
@@ -14408,6 +14474,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitNI_B2_FTL";
 					init="GrpNI_B2 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Bravo 2 Fireteam Leader";
 				};
@@ -14420,6 +14487,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitNI_B2_AR";
 					init="GrpNI_B2 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Bravo 2 Automatic Rifleman";
 				};
@@ -14431,6 +14499,7 @@ class Mission
 					vehicle="SG_NI_Soldier_D";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitNI_B2_AAR";
 					init="GrpNI_B2 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Bravo 2 Assistant Automatic Rifleman";
 				};
@@ -14442,6 +14511,7 @@ class Mission
 					vehicle="SG_NI_Soldier_AT_D";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitNI_B2_AT";
 					init="GrpNI_B2 = group this; nul = [""rat"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Bravo 2 Rifleman (AT)";
 				};
@@ -14463,6 +14533,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitNI_B3_FTL";
 					init="GrpNI_B3 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Bravo 3 Fireteam Leader";
 				};
@@ -14475,6 +14546,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitNI_B3_AR";
 					init="GrpNI_B3 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Bravo 3 Automatic Rifleman";
 				};
@@ -14486,6 +14558,7 @@ class Mission
 					vehicle="SG_NI_Soldier_D";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitNI_B3_AAR";
 					init="GrpNI_B3 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Bravo 3 Assistant Automatic Rifleman";
 				};
@@ -14497,6 +14570,7 @@ class Mission
 					vehicle="SG_NI_Soldier_AT_D";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitNI_B3_AT";
 					init="GrpNI_B3 = group this; nul = [""rat"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Bravo 3 Rifleman (AT)";
 				};
@@ -14518,6 +14592,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitNI_MMG1_G";
 					init="GrpNI_MMG1 = group this; nul = [""mmgg"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Medium MG Team 1 Gunner";
 				};
@@ -14529,6 +14604,7 @@ class Mission
 					vehicle="SG_NI_Soldier_D";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitNI_MMG1_AG";
 					init="GrpNI_MMG1 = group this; nul = [""mmgag"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Medium MG Team 1 Assistant Gunner";
 				};
@@ -14550,6 +14626,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitNI_MAT1_G";
 					init="GrpNI_MAT1 = group this; nul = [""matg"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Medium AT Team 1 Gunner";
 				};
@@ -14561,6 +14638,7 @@ class Mission
 					vehicle="SG_NI_Soldier_D";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitNI_MAT1_AG";
 					init="GrpNI_MAT1 = group this; nul = [""matag"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry Medium AT Team 1 Assistant Gunner";
 				};
@@ -14582,6 +14660,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitNI_SAM1_G";
 					init="GrpNI_SAM1 = group this; nul = [""samg"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry SAM Team 1 Gunner";
 				};
@@ -14593,6 +14672,7 @@ class Mission
 					vehicle="SG_NI_Soldier_D";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitNI_SAM1_AG";
 					init="GrpNI_SAM1 = group this; nul = [""samag"",this] call f_fnc_assignGear;";
 					description="Russian Naval Infantry SAM Team 1 Assistant Gunner";
 				};
@@ -14614,6 +14694,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitNI_IFV1_G";
 					init="GrpNI_IFV1 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInGunner NI_IFV1;";
 					description="Russian Naval Infantry IFV 1 Gunner (BTR-70)";
 				};
@@ -14625,6 +14706,7 @@ class Mission
 					vehicle="SG_NI_Soldier_Crew_D";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitNI_IFV1_D";
 					init="GrpNI_IFV1 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInDriver NI_IFV1;";
 					description="Russian Naval Infantry IFV 1 Driver (BTR-70)";
 				};
@@ -14646,6 +14728,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitNI_IFV2_G";
 					init="GrpNI_IFV2 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInGunner NI_IFV2;";
 					description="Russian Naval Infantry IFV 2 Gunner (BTR-70)";
 				};
@@ -14657,6 +14740,7 @@ class Mission
 					vehicle="SG_NI_Soldier_Crew_D";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitNI_IFV2_D";
 					init="GrpNI_IFV2 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInDriver NI_IFV2;";
 					description="Russian Naval Infantry";
 				};
@@ -14678,7 +14762,8 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
-					init="GrpNI_IFV3 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInGunner NI_IFV3;";
+					text="UnitNI_IFV3_C";
+					init="GrpNI_IFV3 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInCommander NI_IFV3;";
 					description="Russian Naval Infantry IFV 3 Commander (BTR-90)";
 				};
 				class Item1
@@ -14690,6 +14775,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitNI_IFV3_G";
 					init="GrpNI_IFV3 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInGunner NI_IFV3;";
 					description="Russian Naval Infantry IFV 3 Gunner (BTR-90)";
 				};
@@ -14701,6 +14787,7 @@ class Mission
 					vehicle="SG_NI_Soldier_Crew_D";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitNI_IFV3_D";
 					init="GrpNI_IFV3 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInDriver NI_IFV3;";
 					description="Russian Naval Infantry IFV 3 Driver (BTR-90)";
 				};
@@ -14722,6 +14809,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
+					text="UnitNI_TNK1_C";
 					init="GrpNI_TNK1 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInCommander NI_TNK1;";
 					description="Russian Naval Infantry Tank 1 Commander (T-72)";
 				};
@@ -14734,6 +14822,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitNI_TNK1_G";
 					init="GrpNI_TNK1 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInGunner NI_TNK1;";
 					description="Russian Naval Infantry Tank 1 Gunner (T-72)";
 				};
@@ -14745,6 +14834,7 @@ class Mission
 					vehicle="SG_NI_Soldier_Crew_D";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitNI_TNK1_D";
 					init="GrpNI_TNK1 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInDriver NI_TNK1;";
 					description="Russian Naval Infantry Tank 1 Driver (T-72)";
 				};
@@ -14766,6 +14856,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitNI_AH1_P";
 					init="GrpNI_AH1 = group this; nul = [""p"",this] call f_fnc_assignGear; this moveInDriver NI_AH1;";
 					description="Russian Naval Infantry Attack Helo 1 Pilot (Mi-8MTV3)";
 				};
@@ -14777,6 +14868,7 @@ class Mission
 					vehicle="SG_NI_Soldier_Crew_D";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitNI_AH1_G";
 					init="GrpNI_AH1 = group this; nul = [""p"",this] call f_fnc_assignGear; this moveInTurret [NI_AH1, [0]];";
 					description="Russian Naval Infantry Attack Helo 1 Gunner";
 				};
@@ -14798,6 +14890,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
+					text="UnitNI_TH1_P";
 					init="GrpNI_TH1 = group this; nul = [""p"",this] call f_fnc_assignGear; this moveInDriver NI_TH1;";
 					description="Russian Naval Infantry Transport Helo 1 Pilot (Mi-8T)";
 				};
@@ -14819,7 +14912,8 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
-					init="GrpNI_TH2 = group this; nul = [""p"",this] call f_fnc_assignGear; this moveInDriver NI_TH21;";
+					text="UnitNI_TH2_P";
+					init="GrpNI_TH2 = group this; nul = [""p"",this] call f_fnc_assignGear; this moveInDriver NI_TH2;";
 					description="Russian Naval Infantry Transport Helo 1 Pilot (Mi-8T)";
 				};
 			};
@@ -14841,6 +14935,7 @@ class Mission
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.5;
+					text="UnitUSMC_USM_CO";
 					init="GrpUSMC_USM_CO = group this; nul = [""co"",this] call f_fnc_assignGear;";
 					description="USMC Commander";
 				};
@@ -14877,6 +14972,7 @@ class Mission
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.5;
+					text="UnitUSMC_USM_DC";
 					init="GrpUSMC_USM_DC = group this; nul = [""dc"",this] call f_fnc_assignGear;";
 					description="USMC Deputy Commander";
 				};
@@ -14913,6 +15009,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.5;
+					text="UnitUSMC_ASL";
 					init="GrpUSMC_USM_ASL = group this; nul = [""dc"",this] call f_fnc_assignGear;";
 					description="USMC Alpha Squad Leader";
 				};
@@ -14949,6 +15046,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.5;
+					text="UnitUSMC_USM_A1_FTL";
 					init="GrpUSMC_USM_A1 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
 					description="USMC Alpha 1 Fireteam Leader";
 				};
@@ -14962,6 +15060,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.5;
+					text="UnitUSMC_USM_A1_AR";
 					init="GrpUSMC_USM_A1 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
 					description="USMC Alpha 1 Automatic Rifleman";
 				};
@@ -14974,6 +15073,7 @@ class Mission
 					vehicle="usm_marine_90s_d_h_rm1";
 					player="PLAY CDG";
 					skill=0.5;
+					text="UnitUSMC_USM_A1_AAR";
 					init="GrpUSMC_USM_A1 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
 					description="USMC Alpha 1 Assistant Automatic Rifleman";
 				};
@@ -14986,6 +15086,7 @@ class Mission
 					vehicle="usm_marine_90s_d_h_at4";
 					player="PLAY CDG";
 					skill=0.5;
+					text="UnitUSMC_USM_A1_AT";
 					init="GrpUSMC_USM_A1 = group this; nul = [""rat"",this] call f_fnc_assignGear;";
 					description="USMC Alpha 1 Rifleman (AT)";
 				};
@@ -15008,6 +15109,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.5;
+					text="UnitUSMC_USM_A2_FTL";
 					init="GrpUSMC_USM_A2 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
 					description="USMC Alpha 2 Fireteam Leader";
 				};
@@ -15021,6 +15123,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.5;
+					text="UnitUSMC_USM_A2_AR";
 					init="GrpUSMC_USM_A2 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
 					description="USMC Alpha 2 Automatic Rifleman";
 				};
@@ -15033,6 +15136,7 @@ class Mission
 					vehicle="usm_marine_90s_d_h_rm1";
 					player="PLAY CDG";
 					skill=0.5;
+					text="UnitUSMC_USM_A2_AAR";
 					init="GrpUSMC_USM_A2 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
 					description="USMC Alpha 2 Assistant Automatic Rifleman";
 				};
@@ -15045,6 +15149,7 @@ class Mission
 					vehicle="usm_marine_90s_d_h_at4";
 					player="PLAY CDG";
 					skill=0.5;
+					text="UnitUSMC_USM_A2_AT";
 					init="GrpUSMC_USM_A2 = group this; nul = [""rat"",this] call f_fnc_assignGear;";
 					description="USMC Alpha 2 Rifleman (AT)";
 				};
@@ -15067,6 +15172,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.5;
+					text="UnitUSMC_USM_A3_FTL";
 					init="GrpUSMC_USM_A3 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
 					description="USMC Alpha 3 Fireteam Leader";
 				};
@@ -15080,6 +15186,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.5;
+					text="UnitUSMC_USM_A3_AR";
 					init="GrpUSMC_USM_A3 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
 					description="USMC Alpha 3 Automatic Rifleman";
 				};
@@ -15092,6 +15199,7 @@ class Mission
 					vehicle="usm_marine_90s_d_h_rm1";
 					player="PLAY CDG";
 					skill=0.5;
+					text="UnitUSMC_USM_A3_AAR";
 					init="GrpUSMC_USM_A3 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
 					description="USMC Alpha 3 Assistant Automatic Rifleman";
 				};
@@ -15104,6 +15212,7 @@ class Mission
 					vehicle="usm_marine_90s_d_h_at4";
 					player="PLAY CDG";
 					skill=0.5;
+					text="UnitUSMC_USM_A3_AT";
 					init="GrpUSMC_USM_A3 = group this; nul = [""rat"",this] call f_fnc_assignGear;";
 					description="USMC Alpha 3 Rifleman (AT)";
 				};
@@ -15126,6 +15235,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.5;
+					text="UnitUSMC_USM_BSL";
 					init="GrpUSMC_USM_BSL = group this; nul = [""dc"",this] call f_fnc_assignGear;";
 					description="USMC Bravo Squad Leader";
 				};
@@ -15162,6 +15272,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.5;
+					text="UnitUSMC_USM_B1_FTL";
 					init="GrpUSMC_USM_B1 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
 					description="USMC Bravo 1 Fireteam Leader";
 				};
@@ -15175,6 +15286,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.5;
+					text="UnitUSMC_USM_B1_AR";
 					init="GrpUSMC_USM_B1 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
 					description="USMC Bravo 1 Automatic Rifleman";
 				};
@@ -15187,6 +15299,7 @@ class Mission
 					vehicle="usm_marine_90s_d_h_rm1";
 					player="PLAY CDG";
 					skill=0.5;
+					text="UnitUSMC_USM_B1_AAR";
 					init="GrpUSMC_USM_B1 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
 					description="USMC Bravo 1 Assistant Automatic Rifleman";
 				};
@@ -15199,6 +15312,7 @@ class Mission
 					vehicle="usm_marine_90s_d_h_at4";
 					player="PLAY CDG";
 					skill=0.5;
+					text="UnitUSMC_USM_B1_AT";
 					init="GrpUSMC_USM_B1 = group this; nul = [""rat"",this] call f_fnc_assignGear;";
 					description="USMC Bravo 1 Rifleman (AT)";
 				};
@@ -15221,6 +15335,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.5;
+					text="UnitUSMC_USM_B2_FTL";
 					init="GrpUSMC_USM_B2 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
 					description="USMC Bravo 2 Fireteam Leader";
 				};
@@ -15234,6 +15349,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.5;
+					text="UnitUSMC_USM_B2_AR";
 					init="GrpUSMC_USM_B2 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
 					description="USMC Bravo 2 Automatic Rifleman";
 				};
@@ -15246,6 +15362,7 @@ class Mission
 					vehicle="usm_marine_90s_d_h_rm1";
 					player="PLAY CDG";
 					skill=0.5;
+					text="UnitUSMC_USM_B2_AAR";
 					init="GrpUSMC_USM_B2 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
 					description="USMC Bravo 2 Assistant Automatic Rifleman";
 				};
@@ -15258,6 +15375,7 @@ class Mission
 					vehicle="usm_marine_90s_d_h_at4";
 					player="PLAY CDG";
 					skill=0.5;
+					text="UnitUSMC_USM_B2_AT";
 					init="GrpUSMC_USM_B2 = group this; nul = [""rat"",this] call f_fnc_assignGear;";
 					description="USMC Bravo 2 Rifleman (AT)";
 				};
@@ -15280,6 +15398,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.5;
+					text="UnitUSMC_USM_B3_FTL";
 					init="GrpUSMC_USM_B3 = group this; nul = [""ftl"",this] call f_fnc_assignGear;";
 					description="USMC Bravo 3 Fireteam Leader";
 				};
@@ -15293,6 +15412,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.5;
+					text="UnitUSMC_USM_B3_AR";
 					init="GrpUSMC_USM_B3 = group this; nul = [""ar"",this] call f_fnc_assignGear;";
 					description="USMC Bravo 3 Automatic Rifleman";
 				};
@@ -15305,6 +15425,7 @@ class Mission
 					vehicle="usm_marine_90s_d_h_rm1";
 					player="PLAY CDG";
 					skill=0.5;
+					text="UnitUSMC_USM_B3_AAR";
 					init="GrpUSMC_USM_B3 = group this; nul = [""aar"",this] call f_fnc_assignGear;";
 					description="USMC Bravo 3 Assistant Automatic Rifleman";
 				};
@@ -15317,6 +15438,7 @@ class Mission
 					vehicle="usm_marine_90s_d_h_at4";
 					player="PLAY CDG";
 					skill=0.5;
+					text="UnitUSMC_USM_B3_AT";
 					init="GrpUSMC_USM_B3 = group this; nul = [""rat"",this] call f_fnc_assignGear;";
 					description="USMC Bravo 3 Rifleman (AT)";
 				};
@@ -15339,6 +15461,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.5;
+					text="UnitUSMC_USM_MMG1_G";
 					init="GrpUSMC_USM_MMG1 = group this; nul = [""mmgg"",this] call f_fnc_assignGear;";
 					description="USMC Medium MG Team 1 Gunner";
 				};
@@ -15351,6 +15474,7 @@ class Mission
 					vehicle="usm_marine_90s_d_h_mgab";
 					player="PLAY CDG";
 					skill=0.5;
+					text="UnitUSMC_USM_MMG1_AG";
 					init="GrpUSMC_USM_MMG1 = group this; nul = [""mmgag"",this] call f_fnc_assignGear;";
 					description="USMC Medium MG Team 1 Assistant Gunner";
 				};
@@ -15373,6 +15497,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.5;
+					text="UnitUSMC_USM_MAT1_G";
 					init="GrpUSMC_USM_MAT1 = group this; nul = [""matg"",this] call f_fnc_assignGear;";
 					description="USMC Medium AT Team 1 Gunner";
 				};
@@ -15385,6 +15510,7 @@ class Mission
 					vehicle="usm_marine_90s_d_h_ajav";
 					player="PLAY CDG";
 					skill=0.5;
+					text="UnitUSMC_USM_MAT1_AG";
 					init="GrpUSMC_USM_MAT1 = group this; nul = [""matag"",this] call f_fnc_assignGear;";
 					description="USMC Medium AT Team 1 Assistant Gunner";
 				};
@@ -15407,6 +15533,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.5;
+					text="UnitUSMC_USM_SAM1_G";
 					init="GrpUSMC_USM_SAM1 = group this; nul = [""samg"",this] call f_fnc_assignGear;";
 					description="USMC SAM Team 1 Gunner";
 				};
@@ -15419,6 +15546,7 @@ class Mission
 					vehicle="usm_marine_90s_d_h_rm1";
 					player="PLAY CDG";
 					skill=0.5;
+					text="UnitUSMC_USM_SAM1_AG";
 					init="GrpUSMC_USM_SAM1 = group this; nul = [""samag"",this] call f_fnc_assignGear;";
 					description="USMC SAM Team 1 Assistant Gunner";
 				};
@@ -15441,6 +15569,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.5;
+					text="UnitUSMC_USM_ENG1_FTL";
 					init="GrpUSMC_USM_ENG1 = group this; nul = [""eng"",this] call f_fnc_assignGear;";
 					description="USMC Engineer Team 1 Leader";
 				};
@@ -15454,6 +15583,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.5;
+					text="UnitUSMC_USM_ENG1_1";
 					init="GrpUSMC_USM_ENG1 = group this; nul = [""eng"",this] call f_fnc_assignGear;";
 					description="USMC Engineer Team 1 Engineer";
 				};
@@ -15466,6 +15596,7 @@ class Mission
 					vehicle="usm_marine_90s_d_h_eng";
 					player="PLAY CDG";
 					skill=0.5;
+					text="UnitUSMC_USM_ENG1_2";
 					init="GrpUSMC_USM_ENG1 = group this; nul = [""eng"",this] call f_fnc_assignGear;";
 					description="USMC Engineer Team 1 Engineer";
 				};
@@ -15478,6 +15609,7 @@ class Mission
 					vehicle="usm_marine_90s_d_h_eng";
 					player="PLAY CDG";
 					skill=0.5;
+					text="UnitUSMC_USM_ENG1_3";
 					init="GrpUSMC_USM_ENG1 = group this; nul = [""eng"",this] call f_fnc_assignGear;";
 					description="USMC Engineer Team 1 Engineer";
 				};
@@ -15499,6 +15631,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitUSMC_USM_IFV1_G";
 					init="GrpUSMC_USM_IFV1 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInGunner USMC_USM_IFV1;";
 					description="USMC IFV 1 Gunner (M113A3)";
 				};
@@ -15510,6 +15643,7 @@ class Mission
 					vehicle="usm_marine_90s_d_h_crew1";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitUSMC_USM_IFV1_D";
 					init="GrpUSMC_USM_IFV1 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInDriver USMC_USM_IFV1;";
 					description="USMC IFV 1 Driver (M113A3)";
 				};
@@ -15531,6 +15665,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitUSMC_USM_IFV2_G";
 					init="GrpUSMC_USM_IFV2 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInGunner USMC_USM_IFV2;";
 					description="USMC IFV 2 Gunner (M113A3)";
 				};
@@ -15542,6 +15677,7 @@ class Mission
 					vehicle="usm_marine_90s_d_h_crew1";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitUSMC_USM_IFV2_D";
 					init="GrpUSMC_USM_IFV2 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInDriver USMC_USM_IFV2;";
 					description="USMC IFV 2 Driver (M113A3)";
 				};
@@ -15563,6 +15699,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
+					text="UnitUSMC_USM_IFV3_C";
 					init="GrpUSMC_USM_IFV3 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInGunner USMC_USM_IFV3;";
 					description="USMC IFV 3 Commander (LAV-25)";
 				};
@@ -15574,6 +15711,7 @@ class Mission
 					vehicle="usm_marine_90s_d_h_crew1";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitUSMC_USM_IFV3_D";
 					init="GrpUSMC_USM_IFV3 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInDriver USMC_USM_IFV3;";
 					description="USMC IFV 3 Driver (LAV-25)";
 				};
@@ -15586,6 +15724,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitUSMC_USM_IFV3_G";
 					init="GrpUSMC_USM_IFV3 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInGunner USMC_USM_IFV3;";
 					description="USMC IFV 3 Gunner (LAV-25)";
 				};
@@ -15607,6 +15746,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
+					text="UnitUSMC_USM_TNK1_C";
 					init="GrpUSMC_USM_TNK1 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInGunner USMC_USM_TNK1;";
 					description="USMC Tank 1 Commander (M1A1)";
 				};
@@ -15618,6 +15758,7 @@ class Mission
 					vehicle="usm_marine_90s_d_h_crew1";
 					player="PLAY CDG";
 					skill=0.60000002;
+					text="UnitUSMC_USM_TNK1_D";
 					init="GrpUSMC_USM_TNK1 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInDriver USMC_USM_TNK1;";
 					description="USMC Tank 1 Driver (M1A1)";
 				};
@@ -15630,6 +15771,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitUSMC_USM_TNK1_G";
 					init="GrpUSMC_USM_TNK1 = group this; nul = [""c"",this] call f_fnc_assignGear; this moveInGunner USMC_USM_TNK1;";
 					description="USMC Tank 1 Gunner (M1A1)";
 				};
@@ -15651,6 +15793,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitUSMC_USM_TH1_P";
 					init="GrpUSMC_USM_TH1 = group this; nul = [""p"",this] call f_fnc_assignGear; this moveInDriver USMC_USM_TH1;";
 					description="USMC Transport Helo 1 Pilot";
 				};
@@ -15672,6 +15815,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
+					text="UnitUSMC_USM_TH2_P";
 					init="GrpUSMC_USM_TH2 = group this; nul = [""p"",this] call f_fnc_assignGear; this moveInDriver USMC_USM_TH2;";
 					description="USMC Transport Helo 2 Pilot";
 				};
@@ -15693,7 +15837,8 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.60000002;
-					init="GrpUSMC_USM_IFV2 = group this; nul = [""p"",this] call f_fnc_assignGear; this moveInDriver USMC_USM_IFV2;";
+					text="UnitUSMC_USM_AH1_P";
+					init="GrpUSMC_USM_AH1 = group this; nul = [""p"",this] call f_fnc_assignGear; this moveInDriver USMC_USM_AH1;";
 					description="USMC Attack Helo 1 Pilot";
 				};
 				class Item1
@@ -15704,7 +15849,8 @@ class Mission
 					vehicle="usm_marine_90s_d_h_crew1";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="GrpUSMC_USM_IFV2 = group this; nul = [""p"",this] call f_fnc_assignGear; this moveInGunner USMC_USM_IFV2;";
+					text="UnitUSMC_USM_AH1_G";
+					init="GrpUSMC_USM_AH1 = group this; nul = [""p"",this] call f_fnc_assignGear; this moveInGunner USMC_USM_AH1;";
 					description="USMC Attack Helo 1 Gunner";
 				};
 			};
@@ -15765,6 +15911,7 @@ class Mission
 			vehicle="Mi17_UN_CDF_EP1";
 			skill=0.5;
 			text="UN_TH1";
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
 		class Item5
 		{
@@ -15775,6 +15922,7 @@ class Mission
 			vehicle="Ka60_GL_PMC";
 			skill=0.5;
 			text="UN_AH1";
+			init="clearWeaponCargo UN_AH1; clearMagazineCargo UN_AH1;";
 		};
 		class Item6
 		{
@@ -15785,6 +15933,7 @@ class Mission
 			vehicle="Mi17_UN_CDF_EP1";
 			skill=0.5;
 			text="UN_TH2";
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
 		class Item7
 		{
@@ -15838,6 +15987,7 @@ class Mission
 			vehicle="UH1H_TK_GUE_EP1";
 			skill=0.5;
 			text="Gue_TH1";
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
 		class Item12
 		{
@@ -15848,6 +15998,7 @@ class Mission
 			vehicle="Ka60_GL_PMC";
 			skill=0.5;
 			text="Gue_AH1";
+			init="clearWeaponCargo Gue_AH1; clearMagazineCargo Gue_AH1;";
 		};
 		class Item13
 		{
@@ -15858,6 +16009,7 @@ class Mission
 			vehicle="UH1H_TK_GUE_EP1";
 			skill=0.5;
 			text="Gue_TH2";
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
 		class Item14
 		{
@@ -15884,7 +16036,7 @@ class Mission
 		class Item16
 		{
 			position[]={2299.0508,334.8064,2724.9587};
-			azimut=1.4615065;
+			azimut=1.4615099;
 			id=246;
 			side="EMPTY";
 			vehicle="M2A2_EP1";
@@ -15895,7 +16047,7 @@ class Mission
 		class Item17
 		{
 			position[]={2316.0947,340.09399,2701.7056};
-			azimut=1.4615065;
+			azimut=1.4615099;
 			id=247;
 			side="EMPTY";
 			vehicle="M1A1_US_DES_EP1";
@@ -15905,22 +16057,24 @@ class Mission
 		class Item18
 		{
 			position[]={2341.0146,344.75452,2703.9497};
-			azimut=1.4615065;
+			azimut=1.4615099;
 			id=248;
 			side="EMPTY";
 			vehicle="CH_47F_EP1";
 			skill=0.5;
 			text="US_TH1";
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
 		class Item19
 		{
 			position[]={2389.1563,351.96713,2704.021};
-			azimut=1.4615065;
+			azimut=1.4615099;
 			id=249;
 			side="EMPTY";
 			vehicle="AH64D_EP1";
 			skill=0.5;
 			text="US_AH1";
+			init="clearWeaponCargo US_AH1; clearMagazineCargo US_AH1;";
 		};
 		class Item20
 		{
@@ -15942,6 +16096,7 @@ class Mission
 			vehicle="BAF_FV510_D";
 			skill=0.5;
 			text="BAF_TNK1";
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
 		};
 		class Item22
 		{
@@ -15952,6 +16107,7 @@ class Mission
 			vehicle="BAF_Merlin_HC3_D";
 			skill=0.5;
 			text="BAF_TH1";
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
 		class Item23
 		{
@@ -15962,6 +16118,7 @@ class Mission
 			vehicle="BAF_Apache_AH1_D";
 			skill=0.5;
 			text="BAF_AH1";
+			init="clearWeaponCargo BAF_AH1; clearMagazineCargo BAF_AH1;";
 		};
 		class Item24
 		{
@@ -16037,6 +16194,7 @@ class Mission
 			vehicle="Mi17_TK_EP1";
 			skill=0.5;
 			text="TK_TH1";
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
 		class Item31
 		{
@@ -16047,6 +16205,7 @@ class Mission
 			vehicle="Mi24_D_TK_EP1";
 			skill=0.5;
 			text="TK_AH1";
+			init="clearWeaponCargo TK_AH1; clearMagazineCargo TK_AH1;";
 		};
 		class Item32
 		{
@@ -16057,6 +16216,7 @@ class Mission
 			vehicle="Mi17_TK_EP1";
 			skill=0.5;
 			text="TK_TH2";
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
 		class Item33
 		{
@@ -16110,6 +16270,7 @@ class Mission
 			vehicle="Mi17_TK_EP1";
 			skill=0.5;
 			text="Ins_TH1";
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
 		class Item38
 		{
@@ -16120,6 +16281,7 @@ class Mission
 			vehicle="Mi24_D_TK_EP1";
 			skill=0.5;
 			text="Ins_AH1";
+			init="clearWeaponCargo Ins_AH1; clearMagazineCargo Ins_AH1;";
 		};
 		class Item39
 		{
@@ -16130,6 +16292,7 @@ class Mission
 			vehicle="Mi17_TK_EP1";
 			skill=0.5;
 			text="Ins_TH2";
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
 		class Item40
 		{
@@ -16177,32 +16340,35 @@ class Mission
 		class Item44
 		{
 			position[]={2545.6929,328.38586,3521.1257};
-			azimut=0.89087355;
+			azimut=0.89087403;
 			id=552;
 			side="EMPTY";
-			vehicle="Mi17_rockets_RU";
+			vehicle="Mi17_Rockets_RU";
 			skill=0.5;
 			text="RU_TH1";
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
 		class Item45
 		{
 			position[]={2593.605,352.34952,3521.0334};
-			azimut=0.89087355;
+			azimut=0.89087403;
 			id=553;
 			side="EMPTY";
 			vehicle="Mi24_P";
 			skill=0.5;
 			text="RU_AH1";
+			init="clearWeaponCargo RU_AH1; clearMagazineCargo RU_AH1;";
 		};
 		class Item46
 		{
 			position[]={2571.8262,341.16922,3519.5481};
-			azimut=0.89087355;
+			azimut=0.89087403;
 			id=554;
 			side="EMPTY";
-			vehicle="Mi17_rockets_RU";
+			vehicle="Mi17_Rockets_RU";
 			skill=0.5;
 			text="RU_TH2";
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
 		class Item47
 		{
@@ -16250,22 +16416,24 @@ class Mission
 		class Item51
 		{
 			position[]={2292.1558,376.77045,3275.3293};
-			azimut=1.4615065;
+			azimut=1.4615099;
 			id=615;
 			side="EMPTY";
 			vehicle="Mi17_CDF";
 			skill=0.5;
 			text="CDF_TH1";
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
 		class Item52
 		{
 			position[]={2340.2974,373.94504,3275.4011};
-			azimut=1.4615065;
+			azimut=1.4615099;
 			id=616;
 			side="EMPTY";
 			vehicle="Mi24_D";
 			skill=0.5;
 			text="CDF_AH1";
+			init="clearWeaponCargo CDF_AH1; clearMagazineCargo CDF_AH1;";
 		};
 		class Item53
 		{
@@ -16313,22 +16481,24 @@ class Mission
 		class Item57
 		{
 			position[]={2268.0088,281.21277,3523.0276};
-			azimut=1.4615065;
+			azimut=1.4615099;
 			id=677;
 			side="EMPTY";
 			vehicle="MH60S";
 			skill=0.5;
 			text="USMC_TH1";
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
 		class Item58
 		{
 			position[]={2316.1506,279.18991,3523.0994};
-			azimut=1.4615065;
+			azimut=1.4615099;
 			id=678;
 			side="EMPTY";
 			vehicle="AH1Z";
 			skill=0.5;
 			text="USMC_AH1";
+			init="clearWeaponCargo USMC_AH1; clearMagazineCargo USMC_AH1;";
 		};
 		class Item59
 		{
@@ -16382,6 +16552,7 @@ class Mission
 			vehicle="Mi17_Ins";
 			skill=0.5;
 			text="A2INS_TH1";
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
 		class Item64
 		{
@@ -16392,6 +16563,7 @@ class Mission
 			vehicle="Mi24_D";
 			skill=0.5;
 			text="A2INS_AH1";
+			init="clearWeaponCargo A2INS_AH1; clearMagazineCargo A2INS_AH1;";
 		};
 		class Item65
 		{
@@ -16402,6 +16574,7 @@ class Mission
 			vehicle="Mi17_Ins";
 			skill=0.5;
 			text="A2INS_TH2";
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
 		class Item66
 		{
@@ -16455,6 +16628,7 @@ class Mission
 			vehicle="Mi17_CDF";
 			skill=0.5;
 			text="A2GUE_TH1";
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
 		class Item71
 		{
@@ -16465,6 +16639,7 @@ class Mission
 			vehicle="Ka60_GL_PMC";
 			skill=0.5;
 			text="A2GUE_AH1";
+			init="clearWeaponCargo A2GUE_AH1; clearMagazineCargo A2GUE_AH1;";
 		};
 		class Item72
 		{
@@ -16475,6 +16650,7 @@ class Mission
 			vehicle="Mi17_CDF";
 			skill=0.5;
 			text="A2GUE_TH2";
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
 		class Item73
 		{
@@ -17364,7 +17540,7 @@ class Mission
 			vehicle="M2A2_EP1_TGW";
 			skill=0.60000002;
 			text="USM_IFV3";
-			description="Driver";
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
 		};
 		class Item154
 		{
@@ -17374,6 +17550,7 @@ class Mission
 			vehicle="TTK_M113A_USMC";
 			skill=0.60000002;
 			text="USM_IFV1";
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
 			description="Driver";
 		};
 		class Item155
@@ -17384,6 +17561,7 @@ class Mission
 			vehicle="TTK_M113A_USMC";
 			skill=0.60000002;
 			text="USM_IFV2";
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
 			description="Driver";
 		};
 		class Item156
@@ -17404,7 +17582,7 @@ class Mission
 			vehicle="UH60M_EP1";
 			skill=0.60000002;
 			text="USM_TH2";
-			description="Driver";
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
 		class Item158
 		{
@@ -17414,7 +17592,7 @@ class Mission
 			vehicle="UH60M_EP1";
 			skill=0.60000002;
 			text="USM_TH1";
-			description="Driver";
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
 		class Item159
 		{
@@ -17424,6 +17602,7 @@ class Mission
 			vehicle="AH64D_EP1";
 			skill=0.60000002;
 			text="USM_AH1";
+			init="clearWeaponCargo USM_AH1; clearMagazineCargo USM_AH1;";
 			description="Driver";
 		};
 		class Item160
@@ -17434,7 +17613,7 @@ class Mission
 			vehicle="rhs_btr70_des";
 			skill=0.60000002;
 			text="NI_IFV1";
-			description="Russian Naval Infantry";
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
 		};
 		class Item161
 		{
@@ -17444,6 +17623,7 @@ class Mission
 			vehicle="rhs_btr70_des";
 			skill=0.60000002;
 			text="NI_IFV2";
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
 			description="Russian Naval Infantry";
 		};
 		class Item162
@@ -17454,7 +17634,7 @@ class Mission
 			vehicle="BTR90";
 			skill=0.60000002;
 			text="NI_IFV3";
-			description="Russian Naval Infantry";
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
 		};
 		class Item163
 		{
@@ -17464,7 +17644,6 @@ class Mission
 			vehicle="T72_RU";
 			leader=1;
 			skill=0.60000002;
-			description="Russian Naval Infantry";
 		};
 		class Item164
 		{
@@ -17475,7 +17654,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="NI_TH1";
-			description="Russian Naval Infantry";
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
 		class Item165
 		{
@@ -17486,6 +17665,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="NI_TH2";
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 			description="Russian Naval Infantry";
 		};
 		class Item166
@@ -17497,7 +17677,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="NI_AH1";
-			description="Russian Naval Infantry";
+			init="clearWeaponCargo NI_AH1; clearMagazineCargo NI_AH1;";
 		};
 		class Item167
 		{
@@ -17508,6 +17688,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="USMC_USM_IFV1";
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
 		};
 		class Item168
 		{
@@ -17518,6 +17699,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="USMC_USM_IFV2";
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
 		};
 		class Item169
 		{
@@ -17528,6 +17710,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="USMC_USM_IFV3";
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
 		};
 		class Item170
 		{
@@ -17548,6 +17731,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="USMC_USM_TH1";
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
 		class Item172
 		{
@@ -17558,6 +17742,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="USMC_USM_TH2";
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
 		};
 		class Item173
 		{
@@ -17568,6 +17753,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="USMC_USM_AH1";
+			init="clearWeaponCargo USMC_USM_AH1; clearMagazineCargo USMC_USM_AH1;";
 		};
 	};
 	class Markers
