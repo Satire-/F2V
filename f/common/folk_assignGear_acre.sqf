@@ -1,4 +1,4 @@
-// F2 - Folk Assign Gear Script - Czech Republic Equipment
+// F2 - Folk Assign Gear Script - ACRE Assign
 // Credits: Please see the F2 online manual (http://www.ferstaberinde.com/f2/en/)
 // ====================================================================================
 
@@ -46,7 +46,7 @@
 
 _radio1 = "ACRE_PRC117F"; //longrange
 _radio2 = "ACRE_PRC148";  //midrange
-_radio3 = "ACRE_PRC343";
+_radio3 = "ACRE_PRC343"; //shortrange
 
 // ====================================================================================
 
@@ -191,7 +191,7 @@ switch (_typeofUnit) do
 // LOADOUT: MORTAR GUNNER
 	case "mtrg":
 	{
-		_unit addWeapon _radio1;
+		//_unit addWeapon _radio1;
 		_unit addWeapon _radio2;
 	};	
 	
@@ -214,21 +214,23 @@ switch (_typeofUnit) do
 	};			
 	
 // LOADOUT: GROUND VEHICLE CREW
+//Note only group leader is issued with a default 148 please use vehicle rack mounted 117 for long range coms.
 	case "c":
 	{
 		if(leader group _unit == _unit) then {
-				_unit addWeapon _radio1;
+				_unit addWeapon _radio2;
 			};
-		_unit addWeapon _radio2;
+		//_unit addWeapon _radio2;
 	};			
 	
 // LOADOUT: AIR VEHICLE PILOTS
+//Note only group leader is issued with a default 148 please use vehicle rack mounted 117 for long range coms.
 	case "p":
 	{
 		if(leader group _unit == _unit) then {
-				_unit addWeapon _radio1;
+				_unit addWeapon _radio2;
 			};
-		_unit addWeapon _radio2;				
+		//_unit addWeapon _radio2;				
 	};		
 	
 // LOADOUT: ENGINEER
@@ -264,25 +266,28 @@ switch (_typeofUnit) do
 	};
 
 // CARGO: CAR - room for 10 weapons and 50 cargo items
+// Be aware of locality issues when including ACRE assign for vehicles i.e. radio puke
 	case "v_car":
 	{
-		_unit addWeaponCargoGlobal [_radio2, 1];
-		_unit addWeaponCargoGlobal [_radio1, 1];
+		//_unit addWeaponCargoGlobal [_radio2, 1];
+		//_unit addWeaponCargoGlobal [_radio1, 1];
 	};	
 	
 // CARGO: TRUCK - room for 50 weapons and 200 cargo items
+// Be aware of locality issues when including ACRE assign for vehicles i.e. radio puke
 	case "v_tr":
 	{
-		_unit addWeaponCargoGlobal [_radio2, 4];
-		_unit addWeaponCargoGlobal [_radio1, 4];
+		//_unit addWeaponCargoGlobal [_radio2, 4];
+		//_unit addWeaponCargoGlobal [_radio1, 4];
 
 	};
 	
 // CARGO: IFV - room for 10 weapons and 100 cargo items
+// Be aware of locality issues when including ACRE assign for vehicles i.e. radio puke
 	case "v_ifv":
 	{
-		_unit addWeaponCargoGlobal [_radio2, 2];
-		_unit addWeaponCargoGlobal [_radio1, 2];
+		//_unit addWeaponCargoGlobal [_radio2, 2];
+		//_unit addWeaponCargoGlobal [_radio1, 2];
 
 	};
 
