@@ -112,6 +112,10 @@ if (_faction == "bis_baf") then {
 #include "folk_assignGear_baf.sqf"
 };
 
+if (_faction == "UK_ARMED_FORCES") then {
+#include "folk_assignGear_baf.sqf"
+};
+
 // ====================================================================================
 
 // GEAR: TAKISTANI ARMY
